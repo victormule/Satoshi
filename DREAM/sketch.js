@@ -9,7 +9,7 @@ function preload() {
   inconsolata = loadFont('asset/inconsolata.otf');
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
+  createCanvas(windowWidth/3, windowHeight/3, WEBGL);
   textFont(inconsolata);
   textSize(width / 3);
   textAlign(CENTER, CENTER);
